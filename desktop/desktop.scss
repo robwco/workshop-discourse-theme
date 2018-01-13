@@ -141,12 +141,14 @@ nav.post-controls button.has-like {
 }
 
 img.avatar {
-    border-radius: 3px;
+    border-radius: 999px;
 }
 
 #suggested-topics td.main-link {
     width: 500px;
 }
+
+/* Changes */
 
 .topic-list a.title.visited:not(.badge-notification) {
     color: #6644aa;
@@ -157,4 +159,52 @@ img.avatar {
     font-size: 0.75em;
     display: inline-block;
     margin-left: 5px;
+}
+
+button , .btn { 
+	border-radius: .25em; 
+}
+
+th.views, td.views {
+	display:none;
+}
+
+.topic-list .posters { 
+	min-width: 65px; 
+	width: 65px; 
+}
+
+.discourse-tag.box {
+	border-radius: .25em;
+}
+
+.contents hr {
+	display: block; 
+	height: 12px; 
+	margin: 1em 0; 
+	border: 0; 			
+	background:url("https://workshop.discoursehosting.net/uploads/db2812/original/1X/e9025206d78e07745596cb7419656f9cbd7fb0c8.png") repeat-x top left; 
+	background-size: 100% auto; 
+	padding: 0; 
+}
+
+i.fa.fa-thumb-tack.d-icon.d-icon-thumb-tack {
+	color: #e37339;
+}
+
+a.title.raw-link.raw-topic-link { 
+	color: #3d4852; 
+}
+
+/*.d-header, #site-logo, .d-header #site-logo { max-height: 70px; } */
+
+html {
+ 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+.topic-list a.title {
+    color: #53606a !important;
+    font-weight: normal;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif !important;
+    font-size: 18px;
 }
