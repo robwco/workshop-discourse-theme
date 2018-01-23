@@ -2,7 +2,6 @@
     background-color: white;
 }
 
-
 .topic-list > tbody tr:not(.last-visit):not(.topic-list-item-separator) td {
     border-bottom: 1px solid #eee;
 }
@@ -167,11 +166,6 @@ button , .btn {
 
 th.views, td.views {
 	display:none;
-}
-
-.topic-list .posters { 
-	min-width: 65px; 
-	width: 65px; 
 }
 
 .discourse-tag.box {
